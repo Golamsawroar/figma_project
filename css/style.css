@@ -1,0 +1,994 @@
+/* ===============start==================== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+   
+   
+}
+/* ===============end==================== */
+
+/* ============== nav_part strat========================= */
+nav{
+    background: var(--Tint-blue, #1C1E53);
+    padding: 16px 0;
+    position: absolute;
+    width: 100%;
+
+
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+nav .container  .menu_btn{
+   
+    display: flex;
+    column-gap: 48px;
+    align-items: center;
+  
+}
+nav .container  .menu_btn .menu ul{
+    display: flex;
+    column-gap: 32px;
+    
+    
+} 
+nav .container  .menu_btn .menu ul li a{
+    
+    color: #BBBBCB;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+} 
+nav .container  .menu_btn .menu ul li .active{
+    color: #ffffff;
+}
+nav .container  .menu_btn .menu ul li a:hover{
+    color: #ffffff;
+}
+nav .container  .menu_btn .menu ul{
+    display: flex;
+    column-gap: 32px;
+    
+    
+} 
+
+nav .container .menu_btn .btn a{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    padding: 16px 48px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.37);
+
+}
+
+/* ============== nav_part end===================== */
+
+/* =================banner_prat strat==============*/
+#banner_part {
+    padding: 284px 0 195px;
+    background: var(--Tint-blue, #1C1E53);
+
+}
+#banner_part .container{
+    display: flex;
+    column-gap: 32px;
+    
+    
+}
+#banner_part .container .left{
+    width: 50%;
+    
+}
+#banner_part .container .left h1{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px; 
+    border: 0;
+    padding: 0;
+}
+#banner_part .container .left p{
+    color: var(--White, hwb(0 100% 0% / 0.7));    
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 42px; 
+}
+#banner_part .container .left .banner_btn .first{
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    padding: 12px 56px;
+    border-radius: 41px;
+    background: #FCD980;
+    margin-right: 40px;
+
+}
+#banner_part .container .left .banner_btn .sceond{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+#banner_part .container .left .banner_btn .sceond i{
+    margin-left: 16px;
+}
+
+#banner_part .container .right img {
+        width: 100%;
+    
+}
+#banner_part .container .right{
+    width: 50%;
+    
+}
+/* =================== banner_prat end================ */
+
+
+/* ====================form_prat 1 stert======================= */
+#work_part{
+    background: #F4F6FC;
+    padding: 128px;
+    
+}
+#work_part .container{
+    display: flex;  
+    column-gap: 143px;
+   
+
+}
+#work_part .container .left{
+    width: 405px;
+   
+    
+}
+#work_part .container .left h2{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+    
+}
+#work_part .container .left p{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 16px 0;
+}
+#work_part .container .left a{
+    color: #2405F2;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    padding-right: 12px;
+    
+}
+#work_part .container .left a i{
+   padding-left: 12px;
+   padding: 16px 29px 16px 12px;
+    
+}
+#work_part .container .right {
+    width: 656px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 48px;
+}
+#work_part .container .right .work{
+    width: 296px;
+  
+}
+#work_part .container .right .work h3{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; 
+    padding: 16px 0 8px;
+  
+}
+#work_part .container .right .work p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+  
+}
+
+/* ====================form_prat 1 end========================= */
+/* ======================pojeact_part start================================= */
+#pojeact_part .container .title{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+#pojeact_part .container .title {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+}
+#pojeact_part .container .title a{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+#pojeact_part .container .title a i{
+    margin-left: 16px;
+   
+}
+#pojeact_part .container .main{
+    display: flex;
+    justify-content: space-between;
+   
+}
+#pojeact_part .container .main .left {
+    width: 843px;
+    background: red;
+    position: relative;
+    overflow: hidden;
+   
+   
+
+}
+#pojeact_part .container .main .left .ovarly{
+    width: 396px;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 35px 76px 48px;
+    opacity: 0;
+    transform: translate(-100%);
+    transition: 0.7s;
+    
+   
+   
+
+}
+#pojeact_part .container .main .left:hover .ovarly{
+   
+    opacity: 1;
+    transform: translate(0);
+   
+   
+
+}
+#pojeact_part .container .main .left .ovarly h2{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    width: 313px;
+   
+
+}
+#pojeact_part .container .main .left .ovarly p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 293px;
+    margin: 16px 0 40px;
+    
+   
+
+}
+#pojeact_part .container .main .left .ovarly a{
+    color: var(--Yellow, #FCD980);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+
+}
+#pojeact_part .container .main .left .ovarly a i{
+  margin-left: 16px; 
+
+}
+#pojeact_part .container .main .left img {
+    width: 100%;
+   
+   
+   
+
+}
+
+#pojeact_part .container .main .right {
+    width: 405px;
+   
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+   
+   
+
+}
+#pojeact_part .container .main .right .top{
+    width: 100%;
+    position: relative;
+    
+   
+
+}
+#pojeact_part .container .main .right .top .ovarly h2{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    margin-bottom: 10px;
+    
+}
+#pojeact_part .container .main .right .top .ovarly a{
+    color: var(--Yellow, #FCD980);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+   
+}
+#pojeact_part .container .main .right .top .ovarly a i{
+    margin-left: 16px;
+   
+}
+#pojeact_part .container .main .right .top .ovarly{
+    width: 100%;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .7s;
+    transform: scale(0);
+    padding: 129px 36px 45px 56px;
+}
+#pojeact_part .container .main .right .top:hover .ovarly{
+    transform: scale(1);
+    
+}
+#pojeact_part .container .main .right .top img{
+    width: 405px;
+}
+#pojeact_part .container .main .right .bottom img{
+    width: 405px;
+   
+
+}
+
+
+/* ======================pojeact_part end================================= */
+
+
+/* =================== Features_part stert================ */
+
+
+/* ==============title================ */
+#Features_part{
+    background: #F4F6FC;
+    padding: 100px 0;
+   
+   
+}
+#Features_part .title {
+   text-align: center;
+   
+}
+#Features_part .title h5{
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    margin-bottom: 12px;
+}
+#Features_part .title h2{
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+    width: 630px;
+    margin: 0 auto ;
+    margin-bottom: 47px;
+}
+/* ==============title================ */
+
+
+
+
+/* ============== Features_part item===================== */
+#Features_part .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
+}
+#Features_part .main .Features_partitem{
+    width: 405px;
+    background: #FFF;
+    
+ 
+}
+#Features_part .main .Features_partitem h4{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 22px 0 12px;
+ 
+}
+#Features_part .main .Features_partitem p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* ============== Features_part end===================== */
+/* ============== clients_part start===================== */
+#clients_part{
+    background: #F4F6FC;
+    padding: 100px;
+    border: solid 4px #ECECF1;
+}
+
+#clients_part .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#clients_part .container .left {
+    width: 405px;
+    margin: 130px auto 110px;
+
+}
+#clients_part .container .left h2{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; 
+    width: 327px;
+    margin-bottom: 16px;
+}
+#clients_part .container .left p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 327px;
+
+}
+
+#clients_part .container .right {
+    width: 843px;
+    margin: 120px 0 130px ;
+
+}
+#clients_part .container .right p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; 
+}
+#clients_part .container .right .claint{
+   display: flex;
+   margin-top: 48px ;
+
+}
+#clients_part .container .right .second {
+    margin-left: 9px;
+}
+#clients_part .container .right .second h5 {
+
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+
+#clients_part .container .right .second p {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+}
+/* ============== clients_part end===================== */
+/* ============== #faq_part start===================== */
+#faq_part{
+   
+    
+}
+#faq_part .container{
+    display: flex;
+    justify-content: space-between;
+}
+#faq_part .container .left {
+   width: 328px;
+   
+}
+#faq_part .container .left h2 {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; 
+    margin-bottom: 16px;
+}
+#faq_part .container .left a {
+    color: var(--Royal-Blue, #2405F2);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+#faq_part .container .right {
+   width: 843px;
+  
+   
+}
+#faq_part .container .right ul li{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 32px 0 32px 25px;
+    border-bottom: 1px solid  #ececf1fa;
+    
+    
+   
+}
+#faq_part .container .right ul li:first-child{
+    padding: 8px 0 48px 25px;
+    
+   
+}
+#faq_part .container .right ul li:first-child .sceond i{
+   transform: rotate(45deg);
+    
+   
+}
+#faq_part .container .right ul li:last-child{
+    padding: 32px 0 0 25px;
+    border-bottom:0;
+   
+}
+#faq_part .container .right ul li .first{
+    display: flex;
+    column-gap: 53px;
+   
+    
+   
+}
+#faq_part .container .right ul li .first .text h5{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; 
+   
+}
+#faq_part .container .right ul li .first .text p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+/* ==============#faq_part end===================== */
+/* ==============#form_prat start===================== */
+
+#form_prat .container{
+    display: flex;
+
+}
+#form_prat .container .left{
+    width: 656px;
+    background: url(../images/from\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 96px;
+    position: relative;
+    z-index: 1;
+    
+}
+#form_prat .container .left::after{
+    content: "" ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83, 0.50);
+    z-index: -1;
+}
+
+#form_prat .container .left h2{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+    margin-bottom: 24px;
+}
+#form_prat .container .left p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+}
+#form_prat .container .right{
+    width: 624px;
+    background: #1C1E53;
+    padding: 96px 96px 0 96px;
+
+}
+#form_prat .container .right h4{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; 
+    margin-bottom: 16px;
+
+}
+#form_prat .container .right p{
+    color: var(--Grey, #F4F6FC);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 40px; 
+    
+}
+#form_prat .container .right from{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#form_prat .container .right from input{
+    color: var(--Grey, #F4F6FC);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 18px 32px;
+    outline: 0;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.005);
+
+}
+#form_prat .container .right from button{
+    margin-top: 23px;
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+    padding: 15px 51px;
+    border-radius: 41px;
+    background: #FCD980;
+    border: 0;
+    outline: 0;
+    width: 100%;
+   
+}
+#form_prat .container .right from a{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    text-align: center;
+    margin: 28px 0 48px 0;
+    
+}
+/* ============== form_prat end===================== */
+/* ============== blog_prat start===================== */
+#blog_prat .container .title h2{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+    margin: 2px 0 64px;
+}
+#blog_prat .container .bolg_main{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#blog_prat .container .blog_item{
+    width: 405px;
+   
+   
+   
+}
+
+#blog_prat .container .blog_item img{
+    width: 100%;
+    margin-bottom: 40px;
+   
+   
+}
+#blog_prat .container .blog_item  span{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 93px;
+   
+   
+   
+}
+#blog_prat .container .blog_item h5{
+   
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    width: 405px;
+    margin: 16px 0 16px;
+   
+   
+}
+#blog_prat .container .blog_item p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 405px;
+   
+   
+   
+}
+#blog_prat .container .blog_item a{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    margin: 32px 0 1px;
+
+   
+   
+}
+#blog_prat .container .blog_item a i{
+   margin-left: 16px;
+
+   
+   
+}
+#blog_prat .container .blog_item img{
+    width: 100%;
+   
+   
+}
+/* ============== footer_part start===================== */
+footer{
+    background: #1C1E53;
+    padding: 96px 0 0 0;
+}
+footer .container .main{
+    display: flex;
+
+}
+footer .container .main .left p{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    width: 399px;
+    margin: 22px 0 86px;
+}
+footer .container .main .left{
+   width: 50%;
+
+}
+footer .container .main .left .contact {
+    display: flex;
+    background: var(--Yellow, #FCD980);
+    width: 517px;
+    column-gap: 29px;
+    padding: 18px 37px 16px;
+   
+}
+footer .container .main .left .contact h5{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 1px; 
+    
+}
+footer .container .main .left .contact  a{
+    color: var(--Dark-blue, #282938);
+
+    
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    
+}
+
+footer .container .main .right{
+   
+    width: 50%;
+
+}
+footer .container .main .right h3{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+
+}
+footer .container .main .right p{
+    color: var(--Grey, #F4F6FC);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 14px 0 28px; 
+}
+footer .container .main .right a{
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    color: #F4F6FC;
+}
+footer .coppy_part {
+    background: #ECECF1;
+   
+   
+}
+footer .coppy_part .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+   
+   
+}
+footer .coppy_part .container p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+   
+}
+footer .coppy_part .container ul li a{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+   
+}
+footer .coppy_part .container ul{
+   display: flex;
+   column-gap: 32px;
+   
+   
+}
+/* ============== footer_part end===================== */
